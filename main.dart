@@ -36,7 +36,7 @@ class _MyAppState extends State<MyApp> {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            _image == null ?Text("No image taken"):Text("Image Selected"),/*Image.file(_image)*/
+            _image == null ?Text("No image taken"):Image.file(_image),
             SizedBox(
               height: 20,
             ),
@@ -88,16 +88,3 @@ class _MyAppState extends State<MyApp> {
     });
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
